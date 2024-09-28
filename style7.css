@@ -1,0 +1,78 @@
+/* CSS pour la page Accueil.php */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+ background-image: url(image.png);
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+    background-color: hsla(132, 45%, 98%, 0.877);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .image1 img {
+    height: 40px;
+    text-align: left;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #e91313;
+  }
+  
+  nav ul li a:hover {
+    color: #e41e1e;
+  }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: left;
+  font-size: 14px;
+}
+#search-form {
+  margin-bottom: 20px;
+}
+
+#search-form form {
+  display: flex;
+}
+
+#search-form input[type="text"] {
+  flex-grow: 1;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#search-form button {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+#search-results ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#search-results li {
+  margin-bottom: 10px;
+}
